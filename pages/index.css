@@ -1,0 +1,7 @@
+@import "../vendor/normalize.css";
+@import "../vendor/fonts.css";
+.page {
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: #000000;
+}/*# sourceMappingURL=index.css.map */
