@@ -1,0 +1,23 @@
+.guarantees__title {
+    margin: 0;
+    margin-bottom: 60px;
+    line-height: 40px;
+    font-size: 32px;
+    font-weight: 400;
+    color: $main-font-color;
+}
+
+@media screen and (max-width: 925px) {
+    .guarantees__title {
+        line-height: 30px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .guarantees__title {
+        margin-bottom: 40px;
+        line-height: 18px;
+        font-size: 12px;
+    }
+}

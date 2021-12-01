@@ -1,0 +1,41 @@
+.services__card {
+    margin: 0;
+    margin-right: 20px;
+    width: 550px;
+    height: 364px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1C1C1E;
+    border-radius: 16px;
+    transition: background-color 0.4s linear;
+    &:nth-of-type(2) {
+        margin-right: 0;
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: #232327;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .services__card {
+        margin: 0;
+        margin-bottom: 20px;
+
+        &:nth-of-type(2) {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .services__card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .services__card {
+        height: 282px;
+    }
+}
