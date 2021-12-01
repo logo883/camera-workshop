@@ -1,0 +1,19 @@
+.photo-gallery__element_content_green-rectangle {
+    width: 45.7%;
+    height: 552px;
+    background-color: #25E197;
+}
+
+@media screen and (max-width: 925px) {
+    .photo-gallery__element_content_green-rectangle {
+        width: 26.8%;
+        height: 344px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .photo-gallery__element_content_green-rectangle {
+        width: 100%;
+        height: 124px;
+    }
+}

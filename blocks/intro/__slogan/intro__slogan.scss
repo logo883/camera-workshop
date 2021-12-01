@@ -1,0 +1,21 @@
+.intro__slogan {
+    margin: 0;
+    line-height: 40px;
+    font-size: 32px;
+    font-weight: 400;
+    color: $main-font-color;
+}
+
+@media screen and (max-width: 925px) {
+    .intro__slogan {
+        line-height: 30px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .intro__slogan {
+        line-height: 18px;
+        font-size: 12px;
+    }
+}

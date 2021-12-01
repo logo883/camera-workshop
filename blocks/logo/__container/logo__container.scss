@@ -1,0 +1,11 @@
+.logo__container {
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 600px) and (max-width: 925px) {
+    .logo__container {
+        margin-bottom: 70px;
+    }
+}

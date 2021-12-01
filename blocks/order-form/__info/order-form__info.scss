@@ -1,0 +1,15 @@
+.order-form__info {
+    margin: 0;
+    margin-left: 10px;
+    width: 219px;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 400;
+    color: $button-color;
+}
+
+@media screen and (max-width: 450px) {
+    .order-form__info {
+        margin-left: 0;
+    }
+}
