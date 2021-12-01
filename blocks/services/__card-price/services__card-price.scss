@@ -1,0 +1,15 @@
+.services__card-price {
+    margin: auto 0 40px 40px;
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #25E197;
+}
+
+@media screen and (max-width: 600px) {
+    .services__card-price {
+        margin: auto 0 20px 20px;
+        line-height: 18px;
+        font-size: 12px;
+    }
+}

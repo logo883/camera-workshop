@@ -1,0 +1,13 @@
+.services__card-type {
+    margin: 40px 0 20px 40px;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    color: $secondary-font-color;
+}
+
+@media screen and (max-width: 600px) {
+    .services__card-type {
+        margin: 20px 0 10px 20px;
+    }
+}

@@ -1,0 +1,17 @@
+.services {
+    margin: 60px 0;
+    width: 77.8%;
+}
+
+@media screen and (max-width: 925px) {
+    .services {
+        width: 84.4%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .services {
+        margin: 40px 0 30px;
+        width: 87.5%;
+    }
+}

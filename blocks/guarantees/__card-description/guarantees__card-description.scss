@@ -1,0 +1,21 @@
+.guarantees__card-description {
+    margin: 0 20px 20px;
+    line-height: 19px;
+    font-size: 15px;
+    font-weight: 400;
+    color: $secondary-font-color;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+           line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+
+@media screen and (max-width: 600px) {
+    .guarantees__card-description {
+        line-height: 18px;
+        font-size: 12px;
+    }
+}

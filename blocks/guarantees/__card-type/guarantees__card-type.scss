@@ -1,0 +1,17 @@
+.guarantees__card-type {
+    margin: 20px 0 38px 20px;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #EAEAF0;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .guarantees__card-type {
+        margin-bottom: 36px;
+    }
+}

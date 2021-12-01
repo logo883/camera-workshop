@@ -1,0 +1,23 @@
+.intro__description {
+    margin: 0;
+    margin-bottom: 60px;
+    line-height: 40px;
+    font-size: 32px;
+    font-weight: 400;
+    color: $secondary-font-color;
+}
+
+@media screen and (max-width: 925px) {
+    .intro__description {
+        line-height: 30px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .intro__description {
+        margin-bottom: 20px;
+        line-height: 18px;
+        font-size: 12px;
+    }
+}

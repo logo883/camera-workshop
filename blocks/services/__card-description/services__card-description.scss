@@ -1,0 +1,25 @@
+.services__card-description {
+    margin: 40px 40px 0;
+    line-height: 40px;
+    font-size: 32px;
+    font-weight: 400;
+    color: $secondary-font-color;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+           line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+
+@media screen and (max-width: 600px) {
+    .services__card-description {
+        margin: 28px 20px 0;
+        line-height: 18px;
+        font-size: 12px;
+
+        -webkit-line-clamp: 6; 
+           line-clamp: 6;
+    }
+}

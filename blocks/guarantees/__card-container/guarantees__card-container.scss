@@ -1,0 +1,21 @@
+.guarantees__card-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    list-style: none;
+}
+
+@media screen and (max-width: 1110px) {
+    .guarantees__card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .guarantees__card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

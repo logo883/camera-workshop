@@ -1,0 +1,18 @@
+.photo-gallery {
+    margin: 60px 0;
+    width: 95.8%;
+}
+
+@media screen and (max-width: 925px) {
+    .photo-gallery {
+        margin: 20px 0 60px;
+        width: 84.4%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .photo-gallery {
+        margin: 20px 0;
+        width: 87.5%;
+    }
+}

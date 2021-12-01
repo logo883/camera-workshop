@@ -1,0 +1,15 @@
+.logo__name {
+    margin: 0;
+    margin-right: 20px;
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 400;
+    color: $main-font-color;
+}
+
+@media screen and (max-width: 500px) {
+    .logo__name {
+        line-height: 28px;
+        font-size: 20px;
+    }
+}

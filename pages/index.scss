@@ -1,0 +1,60 @@
+@import "../vendor/normalize.css";
+@import "../vendor/fonts.css";
+
+@import "../blocks/variables.scss";
+
+@import "../blocks/page/page.scss";
+
+@import "../blocks/logo/__container/logo__container.scss";
+@import "../blocks/logo/__container/_place/logo__container_place_footer.scss";
+@import "../blocks/logo/__name/logo__name.scss";
+@import "../blocks/logo/__banner/logo__banner.scss";
+
+@import "../blocks/header/header.scss";
+@import "../blocks/header/__title/header__title.scss";
+@import "../blocks/header/__subtitle/header__subtitle.scss";
+
+@import "../blocks/order-form/order-form.scss";
+@import "../blocks/order-form/__input/order-form__input.scss";
+@import "../blocks/order-form/__submit-button/order-form__submit-button.scss";
+@import "../blocks/order-form/__submit-button-text/order-form__submit-button-text.scss";
+@import "../blocks/order-form/__info/order-form__info.scss";
+@import "../blocks/order-form/__info/_place/order-form__info_place_footer.scss";
+
+@import "../blocks/content/content.scss";
+
+@import "../blocks/photo-gallery/photo-gallery.scss";
+@import "../blocks/photo-gallery/__container/photo-gallery__container.scss";
+@import "../blocks/photo-gallery/__element/photo-gallery__element.scss";
+@import "../blocks/photo-gallery/__element/_content/photo-gallery__element_content_small-photo.scss";
+@import "../blocks/photo-gallery/__element/_content/photo-gallery__element_content_yellow-rectangle.scss";
+@import "../blocks/photo-gallery/__element/_content/photo-gallery__element_content_green-rectangle.scss";
+@import "../blocks/photo-gallery/__element/_content/photo-gallery__element_content_large-photo.scss";
+
+@import "../blocks/intro/intro.scss";
+@import "../blocks/intro/__description/intro__description.scss";
+@import "../blocks/intro/__slogan/intro__slogan.scss";
+
+@import "../blocks/services/services.scss";
+@import "../blocks/services/__card-container/services__card-container.scss";
+@import "../blocks/services/__card/services__card.scss";
+@import "../blocks/services/__card-type/services__card-type.scss";
+@import "../blocks/services/__card-title/services__card-title.scss";
+@import "../blocks/services/__card-description/services__card-description.scss";
+@import "../blocks/services/__card-price/services__card-price.scss";
+
+@import "../blocks/guarantees/guarantees.scss";
+@import "../blocks/guarantees/__title/guarantees__title.scss";
+@import "../blocks/guarantees/__card-container/guarantees__card-container.scss";
+@import "../blocks/guarantees/__card/guarantees__card.scss";
+@import "../blocks/guarantees/__card-type/guarantees__card-type.scss";
+@import "../blocks/guarantees/__card-description/guarantees__card-description.scss";
+
+@import "../blocks/support/support.scss";
+@import "../blocks/support/__title/support__title.scss";
+@import "../blocks/support/__link/support__link.scss";
+@import "../blocks/support/__description/support__description.scss";
+
+@import "../blocks/footer/footer.scss";
+@import "../blocks/footer/__copyright-container/footer__copyright-container.scss";
+@import "../blocks/footer/__copyright/footer__copyright.scss";
